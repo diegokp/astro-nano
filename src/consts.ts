@@ -1,15 +1,15 @@
 import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
+  NAME: "Diego Kaufmann",
+  EMAIL: "info@asdata.es",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
-  TITLE: "Home",
+  TITLE: "Presentación",
   DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
 };
 
@@ -19,7 +19,7 @@ export const BLOG: Metadata = {
 };
 
 export const WORK: Metadata = {
-  TITLE: "Work",
+  TITLE: "Experiencia",
   DESCRIPTION: "Where I have worked and what I have done.",
 };
 
